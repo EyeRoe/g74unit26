@@ -1,0 +1,57 @@
+<!-- Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it. -->
+
+<!DOCTYPE HTML>
+
+<head>
+  <style>
+    body {
+      background-color: rgb(210, 119, 247);
+    }
+
+    h1 {
+      color: black;
+    }
+
+    p {
+      color: black;
+    }
+  </style>
+  <h1>Signup Form</h1>
+</head>
+
+<body>
+  <form>
+    <div>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="text">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password">
+    </div>
+    <div>
+      <label for="githubuser">Github Username</label>
+      <input id="githubuser" name="githubuser" type="text">
+    </div>
+    <div>
+      <input id="type-Enterprise" type="radio" name="type" value="Enterprise">
+      <label for="type-Enterprise">Enterprise</label>
+    </div>
+    <div>
+        <input id="type-Pro" type="radio" name="type" value="Pro">
+        <label for="type-Pro">Pro</label>
+      </div>
+      <div>
+          <input id="type-Free" type="radio" name="type" value="Free">
+          <label for="type-Free">Free</label>
+        </div>
+    <button type="submit" name="button">Submit</button>
+  </form>
+
+</body>
+
+</html>
